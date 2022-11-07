@@ -1,0 +1,8 @@
+.intro {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(1, 690px);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: start;
+    margin: 0 auto;
+}

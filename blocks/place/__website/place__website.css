@@ -1,0 +1,6 @@
+.place__website {
+    max-width: 456px;
+    padding: 0 0 48px 0;
+    display: grid;
+    align-self: end;
+}

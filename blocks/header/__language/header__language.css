@@ -1,4 +1,7 @@
 .header__language {
-    justify-self: end;
-    padding: 46px 48px 0 0;
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+  margin: 0;
+  padding: 46px 48px 0 0;
 }
