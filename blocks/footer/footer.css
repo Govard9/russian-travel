@@ -1,0 +1,7 @@
+.footer {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding: 92px 0 24px 0;
+}

@@ -1,8 +1,16 @@
 .place__link {
+  display: inline;
+  width: fit-content;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
 }
