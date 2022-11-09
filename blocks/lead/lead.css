@@ -1,6 +1,24 @@
 .lead {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 768px);
     grid-template-rows: repeat(1, 1fr);
     justify-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+  }
 }

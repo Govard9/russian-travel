@@ -2,7 +2,37 @@
   position: absolute;
   top: 245px;
   left: 312px;
-  width: 560px;
+  max-width: 560px;
   text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 76px;
+  color: #ffffff;
   margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    top: 195px;
+    left: 232px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    top: 112px;
+    left: 104px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 35px;
+    top: 33px;
+    left: 16px;
+  }
 }

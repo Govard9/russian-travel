@@ -2,9 +2,27 @@
   max-width: 460px;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 76px;
   color: #ffffff;
   padding: 0 0 48px 0;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 2.625rem;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 35px;
+    margin-left: 16px;
+    padding: 0 0 32px 0;
+  }
 }

@@ -4,3 +4,22 @@
     display: grid;
     align-self: end;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        padding: 0 0 45px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        padding: 0 0 47px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        padding: 0 0 32px 0;
+        margin-left: 16px;
+    }
+}
