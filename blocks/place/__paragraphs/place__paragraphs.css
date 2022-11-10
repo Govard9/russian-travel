@@ -2,6 +2,12 @@
     width: 484px;
 }
 
+@media screen and (max-width: 1024px) {
+    .place__paragraphs {
+      max-width: 456px;
+    }
+  }
+
 @media screen and (max-width: 768px) {
     .place__paragraphs {
         width: 352px;
