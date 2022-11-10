@@ -1,5 +1,10 @@
 .intro {
-    max-width: 690px;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(1, 690px);
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: start;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
     .intro {
-        padding-left: 16px;
+        margin-left: 16px;
         grid-template-columns: repeat(1, 320px);
     }
 }
