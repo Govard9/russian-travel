@@ -5,6 +5,7 @@
     grid-template-rows: repeat(1, 1fr);
     justify-items: start;
     margin: 0 auto;
+    padding: 92px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
