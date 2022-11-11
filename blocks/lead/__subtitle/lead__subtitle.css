@@ -5,12 +5,27 @@
   line-height: 36px;
   text-align: center;
   color: #ffffff;
-  margin: 32px 0 0 0;
+  padding: 32px 0 0 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 520px) {
+  .lead__subtitle {
+    font-size: 1.5rem;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .lead__subtitle {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    margin: 16px 0 0 0;
+    padding: 16px 0 0 0;
     max-width: 640px;
     font-size: 1rem;
     line-height: 20px;

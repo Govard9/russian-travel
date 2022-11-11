@@ -8,8 +8,17 @@
   padding: 0;
 }
 
+@media screen and (max-width: 688px) {
+  .footer__author {
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__author {
-      text-align: start;
+      justify-content: start;
+      padding: 0;
   }
 }

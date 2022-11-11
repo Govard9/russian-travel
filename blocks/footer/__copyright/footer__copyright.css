@@ -2,14 +2,14 @@
     justify-self: end;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .footer__copyright {
-        margin-top: 5px;
+        padding-top: 5px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
-        margin: 0;
+        padding: 0;
     }
 }

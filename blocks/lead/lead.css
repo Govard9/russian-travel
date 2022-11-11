@@ -1,35 +1,22 @@
 .lead {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  justify-items: center;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 768px);
-    grid-template-rows: repeat(1, 1fr);
-    justify-items: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 320px);
-    grid-template-rows: repeat(1, 1fr);
-    justify-items: center;
   }
 }

@@ -1,29 +1,23 @@
 .intro {
-    max-width: 984px;
-    display: grid;
-    grid-template-columns: repeat(1, 690px);
-    grid-template-rows: repeat(1, 1fr);
-    justify-items: start;
-    margin: 0 auto;
-    padding: 92px 0 0 0;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 88px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
-    .intro {
-        padding-left: 48px;
-    }
+  .intro {
+    padding: 92px 0 0 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-        padding-left: 24px;
-        grid-template-columns: repeat(1, 720px);
-    }
+  .intro {
+    padding: 88px 0 0 24px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .intro {
-        margin-left: 16px;
-        grid-template-columns: repeat(1, 320px);
-    }
+  .intro {
+    padding: 64px 0 0 16px;
+  }
 }
