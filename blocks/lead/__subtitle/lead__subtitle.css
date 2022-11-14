@@ -16,9 +16,23 @@
   }
 }
 
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 400px) {
+  .lead__subtitle {
+    font-size: 1.4rem;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 365px) {
   .lead__subtitle {
     font-size: 1.3rem;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .lead__subtitle {
+    font-size: 1.2rem;
     line-height: 25px;
   }
 }
